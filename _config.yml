@@ -1,0 +1,40 @@
+title: Toko Bunga Singkawang
+description: Toko Bunga Singkawang Asry Florist 081396353338.
+show_downloads: false
+
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://tokobungasingkawang.github.io" # change this to the base hostname & protocol for your site
+
+
+google_analytics: G-XCR3P2M9L6
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
+# social
+author: tokobungasingkawang
+image: /thumbnail-jumbo.png
+twitter:
+  username: AsryFlorist
+
+plugins:
+  - jekyll-target-blank
+  - jekyll-figure
+  - jekyll-loading-lazy
+  - jekyll-feed
+  - jekyll-sitemap
+
+target-blank:
+    rel: noopener
+
+header_page_refs: ['now', 'about', 'contact']
+
+disqus: 
+  shortname: tokobungadibatam
+
+include:
+  - "image"
